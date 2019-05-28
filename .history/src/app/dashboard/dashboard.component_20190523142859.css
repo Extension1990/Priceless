@@ -1,0 +1,16 @@
+.card{
+  margin: 5px;
+}
+.btn{
+  border: none;
+  color: white;
+  background-color: rgb(44, 116, 143);
+  cursor: pointer;
+}
+.modal{
+  border: none;
+}
+.modal-content{
+  margin-top: 150px;
+  background-color: rgb(106, 212, 247);
+}
