@@ -15,6 +15,8 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { TopnavComponent } from './components/topnav/topnav.component';
 
 export const firebaseConfig = {
 
@@ -35,7 +37,9 @@ firebase.initializeApp(firebaseConfig);
     DashboardComponent,
     LoginComponent,
     SignupComponent,
-    NavbarComponent
+    NavbarComponent,
+    SidebarComponent,
+    TopnavComponent
   ],
   imports: [
     BrowserModule,
